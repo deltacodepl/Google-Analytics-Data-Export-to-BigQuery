@@ -10,7 +10,7 @@ from report_requests import get_report_requests
 load_dotenv()
 
 # Set up your service account key file path
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'temp.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'service_account.json'
 
 # Set up your GA view ID
 VIEW_ID = os.getenv('VIEW_ID')
